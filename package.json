@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "Takeshi Toya"
+  },
+  "bugs": {
+    "url": "https://github.com/toyata/ytplayer/issues"
+  },
+  "dependencies": {
+    
+  },
+  "description": "YouTube player using iframe api",
+  "devDependencies": {
+    
+  },
+  "homepage": "https://github.com/toyata/modal",
+  "keywords": [
+    "YouTube",
+    "video",
+    "player"
+  ],
+  "license": "MIT",
+  "main": "ytplayer.js",
+  "name": "tt.ytplayer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toyata/ytplayer.git"
+  },
+  "scripts": {
+    
+  },
+  "version": "0.1.0"
+}

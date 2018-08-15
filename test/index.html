@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="shortcut icon" type="image/png" href="jasmine/lib/jasmine-3.2.0/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="jasmine/lib/jasmine-3.2.0/jasmine.css">
+  <link rel="stylesheet" type="text/css" href="../modal.css">
+  
+  <script type="text/javascript" src="jasmine/lib/jasmine-3.2.0/jasmine.js"></script>
+  <script type="text/javascript" src="jasmine/lib/jasmine-3.2.0/jasmine-html.js"></script>
+  <script type="text/javascript" src="jasmine/lib/jasmine-3.2.0/boot.js"></script>
+  <script type="text/javascript" src="../ytplayer.js"></script>
+</head>
+<body>
+  <div id="yt-player"></div>
+  <div id="render-test"></div>
+
+  <div class="yt-player" id="yt-player-2" data-mute="1">
+    <a href="https://www.youtube.com/watch?v=drYQmsu5wR4" target="_blank"></a>
+  </div>
+
+  <div class="yt-player" id="yt-player-3" data-mute="1">
+    <a href="https://youtu.be/drYQmsu5wR4" target="_blank"></a>
+  </div>
+
+  <script type="text/javascript" src="YTPlayerSpec.js"></script>
+</body>
+</html>
