@@ -94,6 +94,8 @@ const YTPlayer = (() => {
     onPlayerStateChange(event) {
       this._clearClasses()
 
+      this.el.classList.remove('unstarted')
+
       switch (event.data) {
         case YT.PlayerState.ENDED:
           this.el.classList.add('ended')
@@ -117,7 +119,6 @@ const YTPlayer = (() => {
       return this.__render(el, id, vars).then(player => {
         this._player = player
 
-        this.el.classList.remove('unstarted')
         this._emit('ready')
 
         return player
